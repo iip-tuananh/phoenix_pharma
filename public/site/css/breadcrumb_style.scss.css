@@ -1,0 +1,84 @@
+.bread-crumb {
+    /* padding: 0px 0; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid #e1e1e1e1;
+    border-bottom: 1px solid #e1e1e1e1;
+}
+
+.bread-crumb .title-breadcrumb {
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    z-index: 8
+}
+
+@media (max-width: 767px) {
+    .bread-crumb .title-breadcrumb {
+        font-size:26px
+    }
+}
+
+.bread-crumb .breadcrumb {
+    margin: 0;
+    font-size: 14px;
+    padding: 15px 0px;
+    border-radius: 0;
+    /* font-weight: bold; */
+    line-height: 24px;
+    width: 100%;
+    /* text-align: center; */
+    position: relative;
+    z-index: 8
+}
+
+.bread-crumb .breadcrumb li {
+    display: inline
+}
+
+.bread-crumb .breadcrumb li>a {
+    color: #000;
+}
+
+.bread-crumb .breadcrumb li>a>span {
+    color: #000;
+}
+
+.bread-crumb .breadcrumb li span {
+    display: inline;
+    color: #000;
+}
+
+.bread-crumb .breadcrumb li .mr_lr {
+    padding: 0px 3px;
+    color: #000;
+}
+
+.bread-crumb .breadcrumb li .mr_lr svg {
+    width: 10px;
+    height: 10px;
+    margin-top: -2px
+}
+
+.bread-crumb .breadcrumb li a:hover,.bread-crumb .breadcrumb li.active,.bread-crumb .breadcrumb li strong {
+    color: #000;
+    font-weight: bold
+}
+
+.bread-crumb .breadcrumb li a:hover span,.bread-crumb .breadcrumb li.active span,.bread-crumb .breadcrumb li strong span {
+    color: #000;
+    font-weight: bold
+}
+
+@media (max-width: 991px) {
+    .bread-crumb {
+        padding-top:calc( 30px / 2);
+        padding-bottom: calc( 30px / 2)
+    }
+}
