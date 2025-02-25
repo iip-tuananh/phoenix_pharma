@@ -109,7 +109,8 @@
     <div id="copyright" class="copyright">
         <div class="container">
             <div class="wsp">
-                © Bản quyền thuộc về <b>{{ $config->web_title }}</b>
+                Bản quyền thuộc về <b>{{ $config->web_title }}</b> <br>
+                Copyright © PHOENIX PHARMA.,LTD
             </div>
         </div>
     </div>
